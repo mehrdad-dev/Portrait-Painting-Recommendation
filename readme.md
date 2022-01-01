@@ -12,5 +12,6 @@ A recommendation system for images (specifically painted portraits), for Web Min
 
 
 ## About
-[Description of the project]('assets/project1.pdf')
-[See MobileNet Architecture]('assets/model.png')
+[Description of the project](assets/project1.pdf)
+
+[See MobileNet Architecture](assets/model.png)
