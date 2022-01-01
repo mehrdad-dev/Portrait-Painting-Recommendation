@@ -59,8 +59,9 @@ elif selected_image == 'image 2':
 else:
     selected_image = random_images[2]
 
+st.markdown('<h4>Your selected image</h4>', unsafe_allow_html=True)
 st.image(selected_image, width=224,
-         use_column_width=False, caption='Your Selected Image')
+         use_column_width=False, caption='Selected Image')
 
 # =============================================================================
 
@@ -88,35 +89,20 @@ recom_reuslts, recom_scores = utils.Recommend(
 # =============================================================================
 
 st.markdown('<h4>Recomendation Results: </h4>', unsafe_allow_html=True)
-print('recom_reuslts', recom_reuslts)
-print('===================================================')
-print('recom_scores', recom_scores)
-print('===================================================')
-print(type(recom_scores))
-print('================== =================================')
 recom_scores = recom_scores.tolist()
-print(recom_scores)
-print('===================================================')
-print(type(recom_scores))
-print('===================================================')
 recom_reuslts = recom_reuslts.tolist()
-print(type(recom_reuslts))
-print(recom_reuslts)
-print('===================================================')
 recom_reuslts_fixed = []
 for result in recom_reuslts:
     recom_reuslts_fixed.append('images/'+result)
-print('===================================================')
-print('len of recom results: ', len(recom_reuslts_fixed))
 
 st.image(recom_reuslts_fixed[:3], width=224, use_column_width=False,
-         caption=[f'Similarity Score: {recom_scores[0]}',
-                  f'Similarity Score: {recom_scores[1]}',
-                  f'Similarity Score: {recom_scores[2]}']
+         caption=['Similarity Score: {:.3f}'.format(recom_scores[0]),
+                  'Similarity Score: {:.3f}'.format(recom_scores[1]),
+                  'Similarity Score: {:.3f}'.format(recom_scores[2])]
          )
 
 st.image(recom_reuslts_fixed[3:], width=224, use_column_width=False,
-         caption=[f'Similarity Score: {recom_scores[3]}',
-                  f'Similarity Score: {recom_scores[4]}',
-                  f'Similarity Score: {recom_scores[5]}']
+         caption=['Similarity Score: {:.3f}'.format(recom_scores[3]),
+                  'Similarity Score: {:.3f}'.format(recom_scores[4]),
+                  'Similarity Score: {:.3f}'.format(recom_scores[5])]
          )
