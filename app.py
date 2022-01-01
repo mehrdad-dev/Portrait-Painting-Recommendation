@@ -93,12 +93,14 @@ print('recom_scores', recom_scores)
 
 print(recom_scores.values())
 print(recom_scores.keys())
-
+print(type(recom_scores))
+recom_scores = recom_scores.tolist()
+print(recom_scores)
 
 st.image(recom_reuslts[:3], width=224, use_column_width=False,
-         caption=[f'Similarity Score: {recom_scores[recom_reuslts[0]]}',
-                  f'Similarity Score: {recom_scores[recom_reuslts[1]]}',
-                  f'Similarity Score: {recom_scores[recom_reuslts[2]]}']
+         caption=[f'Similarity Score: {recom_scores[0]}',
+                  f'Similarity Score: {recom_scores[1]}',
+                  f'Similarity Score: {recom_scores[2]}']
          )
 
 st.image(recom_reuslts[4:], width=224, use_column_width=False,
