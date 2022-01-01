@@ -95,7 +95,9 @@ print(recom_scores[1])
 print(recom_scores[2])
 
 st.image(recom_reuslts[:3], width=224, use_column_width=False,
-         caption=recom_scores[:3]
+         caption=[f'Similarity Score: {recom_scores[recom_reuslts[0]]}',
+                  f'Similarity Score: {recom_scores[recom_reuslts[1]]}',
+                  f'Similarity Score: {recom_scores[recom_reuslts[2]]}']
          )
 
 st.image(recom_reuslts[4:], width=224, use_column_width=False,
