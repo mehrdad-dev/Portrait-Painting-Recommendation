@@ -90,6 +90,10 @@ recom_reuslts, recom_scores = utils.Recommend(
 st.markdown('<h4>Recomendation Results: /h4>', unsafe_allow_html=True)
 print('recom_reuslts', recom_reuslts)
 print('recom_scores', recom_scores)
+print('recom_scores 0 --> ', recom_scores[0])
+print('recom_scores 1 --> ', recom_scores[1])
+print('recom_scores 2 --> ', recom_scores[2])
+
 st.image(recom_reuslts[:3], width=224, use_column_width=False,
          caption=[f'Similarity Score: {recom_scores[0]}',
                   f'Similarity Score: {recom_scores[1]}',
