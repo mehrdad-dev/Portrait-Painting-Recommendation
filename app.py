@@ -8,7 +8,7 @@ import tensorflow as tf
 
 images = ['images/'+img for img in os.listdir("images/")]
 cossim_path = 'cpre_recommendosine_similarity/cos_sim.pkl'
-model_path = ''
+model_path = 'model/'
 # =============================================================================
 
 st.title('PPR - Portrait Painting Recommendation')
