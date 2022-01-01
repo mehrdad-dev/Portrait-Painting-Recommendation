@@ -91,8 +91,6 @@ st.markdown('<h4>Recomendation Results: /h4>', unsafe_allow_html=True)
 print('recom_reuslts', recom_reuslts)
 print('recom_scores', recom_scores)
 
-print(recom_scores.values())
-print(recom_scores.keys())
 print(type(recom_scores))
 recom_scores = recom_scores.tolist()
 print(recom_scores)
