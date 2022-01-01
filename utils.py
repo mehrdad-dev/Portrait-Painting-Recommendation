@@ -41,13 +41,13 @@ def CosSim(model, images_matrix, images_list):
 def Recommend(cossim_table, input_img, k_recommend=5):
 
     original=load_img(input_img, target_size=(224, 224))
-    input_img=input_img.split('/')[-1]
+    img_name=input_img.split('/')[-1]
     # plt.imshow(original)
     # plt.show()
 
-    closest_imgs=cossim_table[original].sort_values(ascending=False)[
+    closest_imgs=cossim_table[img_name].sort_values(ascending=False)[
                                                      1:k_recommend+1].index
-    closest_imgs_scores=cossim_table[original].sort_values(ascending=False)[
+    closest_imgs_scores=cossim_table[img_name].sort_values(ascending=False)[
                                                             1:k_recommend+1]
 
     # for i in range(0, len(closest_imgs)):
