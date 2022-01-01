@@ -100,8 +100,8 @@ print('===================================================')
 print(type(recom_scores))
 print('===================================================')
 recom_reuslts = recom_reuslts.tolist()
-print(type(recom_reuslts1))
-print(recom_reuslts1)
+print(type(recom_reuslts))
+print(recom_reuslts)
 print('===================================================')
 recom_reuslts_fixed = []
 for result in recom_reuslts:
