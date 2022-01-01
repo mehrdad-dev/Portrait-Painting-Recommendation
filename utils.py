@@ -38,7 +38,7 @@ def CosSim(model, images_matrix, images_list):
     return cos_similarities_df
 
 
-def Recommend(cossim_table, input_img, k_recommend=5):
+def Recommend(cossim_table, input_img, k_recommend):
 
     original=load_img(input_img, target_size=(224, 224))
     img_name=input_img.split('/')[-1]
