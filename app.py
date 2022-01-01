@@ -97,9 +97,14 @@ print('================== =================================')
 recom_scores = recom_scores.tolist()
 print(recom_scores)
 print('===================================================')
+print(type(recom_scores))
+print('===================================================')
+recom_reuslts1 = recom_reuslts.tolist()
+print(type(recom_reuslts1))
+print(recom_reuslts1)
+print('===================================================')
 
-
-st.image(recom_reuslts[:3], width=224, use_column_width=False,
+st.image(recom_reuslts1[:3], width=224, use_column_width=False,
          caption=[f'Similarity Score: {recom_scores[0]}',
                   f'Similarity Score: {recom_scores[1]}',
                   f'Similarity Score: {recom_scores[2]}']
