@@ -72,7 +72,7 @@ def expensive_compute(images):
     return images_matrix, cos_sim
 
 
-@st.cache
+@st.cache(allow_output_mutation=True)
 def pre_recommend(cossim_path, model_path):
     model = tf.keras.models.load_model(model_path)
     cos_sim = pd.read_pickle(cossim_path)
@@ -87,7 +87,7 @@ recom_reuslts, recom_scores = utils.Recommend(
 
 # =============================================================================
 
-st.markdown('<h4>Recomendation Results: /h4>', unsafe_allow_html=True)
+st.markdown('<h4>Recomendation Results: </h4>', unsafe_allow_html=True)
 print('recom_reuslts', recom_reuslts)
 print('===================================================')
 print('recom_scores', recom_scores)
