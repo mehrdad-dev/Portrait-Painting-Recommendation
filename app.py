@@ -99,18 +99,21 @@ print(recom_scores)
 print('===================================================')
 print(type(recom_scores))
 print('===================================================')
-recom_reuslts1 = recom_reuslts.tolist()
+recom_reuslts = recom_reuslts.tolist()
 print(type(recom_reuslts1))
 print(recom_reuslts1)
 print('===================================================')
+recom_reuslts_fixed = []
+for result in recom_reuslts:
+    recom_reuslts_fixed.append('images/'+result)
 
-st.image(recom_reuslts1[:3], width=224, use_column_width=False,
+st.image(recom_reuslts_fixed[:3], width=224, use_column_width=False,
          caption=[f'Similarity Score: {recom_scores[0]}',
                   f'Similarity Score: {recom_scores[1]}',
                   f'Similarity Score: {recom_scores[2]}']
          )
 
-st.image(recom_reuslts[4:], width=224, use_column_width=False,
+st.image(recom_reuslts_fixed[4:], width=224, use_column_width=False,
          caption=[f'Similarity Score: {recom_scores[3]}',
                   f'Similarity Score: {recom_scores[4]}',
                   f'Similarity Score: {recom_scores[5]}']
