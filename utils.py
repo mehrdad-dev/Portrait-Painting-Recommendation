@@ -45,9 +45,9 @@ def Recommend(cossim_table, input_img, k_recommend=5):
     # plt.imshow(original)
     # plt.show()
 
-    closest_imgs=cossim_table[input_img].sort_values(ascending=False)[
+    closest_imgs=cossim_table[original].sort_values(ascending=False)[
                                                      1:k_recommend+1].index
-    closest_imgs_scores=cossim_table[input_img].sort_values(ascending=False)[
+    closest_imgs_scores=cossim_table[original].sort_values(ascending=False)[
                                                             1:k_recommend+1]
 
     # for i in range(0, len(closest_imgs)):
