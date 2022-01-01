@@ -106,6 +106,8 @@ print('===================================================')
 recom_reuslts_fixed = []
 for result in recom_reuslts:
     recom_reuslts_fixed.append('images/'+result)
+print('===================================================')
+print('len of recom results: ', len(recom_reuslts_fixed))
 
 st.image(recom_reuslts_fixed[:3], width=224, use_column_width=False,
          caption=[f'Similarity Score: {recom_scores[0]}',
@@ -113,7 +115,7 @@ st.image(recom_reuslts_fixed[:3], width=224, use_column_width=False,
                   f'Similarity Score: {recom_scores[2]}']
          )
 
-st.image(recom_reuslts_fixed[4:], width=224, use_column_width=False,
+st.image(recom_reuslts_fixed[3:], width=224, use_column_width=False,
          caption=[f'Similarity Score: {recom_scores[3]}',
                   f'Similarity Score: {recom_scores[4]}',
                   f'Similarity Score: {recom_scores[5]}']
