@@ -17,7 +17,7 @@ st.markdown('A recommendation system for images (specifically painted portraits)
 star = " 🌟 If you like the idea give it a star on the [GitHub](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation)"
 st.markdown(star, unsafe_allow_html=True)
 
-desc = " 📖 Full Description of the project: [Go to PDF](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/project1.pdf)"
+desc = " 📖 Full Description of the project: [PDF](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/project1.pdf)"
 st.markdown(desc, unsafe_allow_html=True)
 
 expander1 = st.expander("📊 Data")
