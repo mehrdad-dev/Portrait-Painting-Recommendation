@@ -68,7 +68,7 @@ st.markdown('<h4>Your selected image</h4>', unsafe_allow_html=True)
 st.image(selected_image, width=224,
          use_column_width=False, caption='Selected Image')
 
-star = "If you got an error, just choose an image from the options in the drop-down section."
+star = "If you got an error, just choose another image from the options in the drop-down section."
 st.markdown(star, unsafe_allow_html=True)
 
 # =============================================================================
