@@ -14,12 +14,17 @@ model_path = 'model/'
 st.title('PPR - Portrait Painting Recommendation')
 st.markdown('A recommendation system for images (specifically painted portraits)',
             unsafe_allow_html=True)
-star = " 🌟 If you like the idea give it a star on the [GitHub]()"
+star = " 🌟 If you like the idea give it a star on the [GitHub](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation)"
 st.markdown(star, unsafe_allow_html=True)
+
+desc = " 📖 Full Description of the project: [Go to PDF](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/project1.pdf)"
+st.markdown(desc, unsafe_allow_html=True)
 
 expander1 = st.expander("📊 Data")
 data_ex = """
 **Dataset page:** [Wikiart](https://data.mendeley.com/datasets/289kxpnp57/1).
+
+**Dataset size:** 926 sample in 6 artistic style.
 
 **Published:** 14 Jan 2021.
 
