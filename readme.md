@@ -15,12 +15,12 @@ A recommendation system for images (specifically painted portraits), for Web Min
 
 Result 1             |  Result 2   |  Result 3
 :-------------------------:|:-------------------------:|:-------------------------:
-![mehrdad mohammadian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_00-55.png)  |  ![mehrdad mohammadian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_00-58.png) | ![mehrdad mohammdian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_00-58_1.png)
+![Portrait Painting Recommendation mehrdad mohammadian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_00-55.png)  |  ![mehrdad mohammadian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_00-58.png) | ![Portrait Painting Recommendation mehrdad mohammdian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_00-58_1.png)
 
 
 Result 4             |  Result 5   |  Result 6
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_01-00.png" width="500" height="350"> |  ![mehrdad mohammadian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_10-15.png) | ![mehrdad mohammdian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_10-16.png)
+<img src="https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_01-00.png" width="500" height="350"> |  ![Portrait Painting Recommendation mehrdad mohammadian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_10-15.png) | ![Portrait Painting Recommendation mehrdad mohammdian](https://github.com/mehrdad-dev/Portrait-Painting-Recommendation/blob/main/assets/2022-01-02_10-16.png)
 
 
 ## About
