@@ -3,7 +3,7 @@
 
 A recommendation system for images (specifically painted portraits), for information retrieval and web search.
 
-[Web Mining and Social Networking Course Repo](https://github.com/mehrdad-dev/webmining-course-fall2021)
+[Course Repo](https://github.com/mehrdad-dev/webmining-course-fall2021)
 
 
 ### Demo Web App
