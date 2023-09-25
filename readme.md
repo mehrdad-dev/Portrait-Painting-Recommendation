@@ -1,7 +1,7 @@
 
 ## PPR - Portrait Painting Recommendation Using Deep Learning
 
-A recommendation system for images (specifically painted portraits), for information retrieval and web search.
+A recommendation system for images (specifically painted portraits), for information retrieval and web search course.
 
 [Course Repo](https://github.com/mehrdad-dev/webmining-course-fall2021)
 
