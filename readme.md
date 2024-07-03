@@ -3,8 +3,6 @@
 
 A recommendation system for images (specifically painted portraits), for information retrieval and web search course.
 
-[Course Repo](https://github.com/mehrdad-dev/webmining-course-fall2021)
-
 
 ### Demo Web App
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/mehrdad-dev/anxiety-predict/main/app.py)
@@ -27,13 +25,4 @@ Result 4             |  Result 5   |  Result 6
 [Description of the project](assets/project1.pdf)
 
 [See MobileNet Architecture](assets/model.png)
-
-
-## Buy me a coffee
-
-<a href="https://www.buymeacoffee.com/mehrdaddev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-<a href="http://www.coffeete.ir/mehrdad-dev">
-       <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:260px;" />
-</a>
 
